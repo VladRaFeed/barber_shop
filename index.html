@@ -4,62 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>BarberShop</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <a href="#">
-          <img src="./images/logo.jpg" alt="logo" />
+          <img src="./images/logo.jpg" alt="logo" class="logo" />
         </a>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services and Prices</a></li>
-          <li><a href="#">Barbers</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#" class="nav-links link">About</a></li>
+          <li><a href="#" class="nav-links link">Services and Prices</a></li>
+          <li><a href="#" class="nav-links link">Barbers</a></li>
+          <li><a href="#" class="nav-links link">Contacts</a></li>
         </ul>
       </nav>
-      <a href="tel:+38044111">+38 044 111 11 11</a>
-      <button type="button">Book a service</button>
+      <a href="tel:+38044111" class="nav-links link">+38 044 111 11 11</a>
+      <button type="button" class="button_light">Book a service</button>
     </header>
     <main>
       <section>
         <ul>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Youtube</a></li>
+          <li><a href="#" class="social-links link">Instagram</a></li>
+          <li><a href="#" class="social-links link">Youtube</a></li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="top-title-text">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-title-text">
           We are experts in trendy men's haircuts. We work quickly, carefully,
           and tastefully.
         </p>
-        <button type="button">Back</button>
-        <button type="button">Next</button>
+        <ul>
+        <ul>
+          <li>
+            <button class="carousel-button" type="button" disabled>
+              Back
+            </button>
+          </li>
+          <li><button class="carousel-button" type="button">Next</button></li>
+        </ul>
       </section>
       <section>
         <ul>
           <li><img src="./images/img1.jpg" width="270" height="445" alt="Гоління" /></li>
           <li><img src="./images/img2.jpg" width="270" height="445" alt="Стрижка" /></li>
         </ul>
-        <h2>About</h2>
-        <p>The Best Barbershop in Your City</p>
-        <p>
+        <h2 class="title-tagline">About</h2>
+        <p class="title">The Best Barbershop in Your City</p>
+        <p class="sub-title">
           If you want to add more confidence to your image, you are definitely
           in the right place.
         </p>
-        <p>
+        <p class="sub-title2">
           We are a team that never rests on its laurels and yearns for change.
           And once you fall into the hands of our master, you will never be the
           same again. We are a team that is always on the same wavelength with
           clients. Therefore, we are always ready to improve everyone who comes
           to us!
         </p>
-        <button type="button">Book a service</button>
+        <button type="button" class="dark-button">Book a service</button>
       </section>
       <section>
-        <p>Spend time in the company of the best craftsmen</p>
-        <h2>Services and Prices</h2>
+        <p class="top-title">Spend time in the company of the best craftsmen</p>
+        <h2 class="title">Services and Prices</h2>
         <ul>
           <li>
             <h3>Men's Haircut</h3>
@@ -96,7 +108,7 @@
             <span>from 200 uah</span>
           </li>
         </ul>
-        <button type="button">Book a service</button>
+        <button type="button" class="button_light">Book a service</button>
       </section>
       <section>
         <ul>
@@ -113,16 +125,16 @@
             <p><span>100</span>Gifts for Regular Customers</p>
           </li>
         </ul>
-        <p>Old school</p>
-        <h2>Why do they come to us?</h2>
-        <p>
+        <p class="title-tagline">Old school</p>
+        <h2 class="title">Why do they come to us?</h2>
+        <p class="sub-title">
           Only good things are said about us. But it is better to see and feel 1
           time than to read 10 times.
         </p>
       </section>
       <section>
-        <p>For true connoisseurs of the atmosphere</p>
-        <h2>Our Barbers</h2>
+        <p class="title-tagline">For true connoisseurs of the atmosphere</p>
+        <h2 class="title">Our Barbers</h2>
         <ul>
           <li>
             <img src="./images/img11.jpg" alt="John_Smith">
@@ -160,7 +172,7 @@
         </ul>
       </section>
       <section>
-        <h2>In Latin, "barba" means "beard"</h2>
+        <h2 class="title-tagline">In Latin, "barba" means "beard"</h2>
         <ul>
           <li>
             <img src="./images/img7.jpg" alt="haircutting" />
@@ -181,7 +193,7 @@
         <p>Name*</p>
         <p>Telephone*</p>
         <p>Message</p>
-        <button>Send</button>
+        <button type="button" class="button_light">Send</button>
         <h3>Contacts</h3>
         <adress>
           <ul>
