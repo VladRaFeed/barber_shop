@@ -8,7 +8,7 @@
 }
 
 body {
-  color: var(--color-primary-inverted);
+  background-color: var(--color-primary-inverted);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -58,6 +58,7 @@ ul {
 
 /* main */
 /* hero-section */
+
 .social-links {
   color: var(--color-primary-dark);
   font-style: normal;
@@ -154,4 +155,99 @@ ul {
 .dark-button:hover,
 .dark-button:focus {
   background-color: var(--color-brand);
+}
+
+.title-light {
+  color: var(--color-primary-inverted);
+  font-family: "Raleway";
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.title-price-list {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+.prisess {
+  color: var(--color-secondary);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+.review-title {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+}
+.review-list {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+}
+
+.card-title {
+  color: var(--color-primary-dark);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+}
+.card-sub-title {
+  color: var(--color-brand);
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+}
+
+.online-bs {
+  color: var(--color-secondary-transparent);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.online-bs:hover {
+  color: var(--color-primary-inverted);
+}
+
+.contacts {
+  color: var(--color-secondary);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.gr-title {
+  color: var(--color-primary-inverted);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.time-title {
+  color: var(--color-secondary);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+
+.footer-title {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.2em;
 }
